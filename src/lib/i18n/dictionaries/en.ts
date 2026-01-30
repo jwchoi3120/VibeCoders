@@ -20,8 +20,8 @@ export const en = {
     footer: '© {year} VibeCodingLearners. Built for the community.',
   },
   home: {
-    heroTitle: 'Master Coding with',
-    heroHighlight: 'Vibe',
+    heroTitle: 'Build your own software without coding knowledge!',
+    heroHighlight: 'VibeCodingLearners',
     heroDescription: 'Curated coding courses and learning paths to help you go from zero to production-ready. SEO-first, fast, and free to explore.',
     browseCourses: 'Browse Courses',
     learningPaths: 'Learning Paths',

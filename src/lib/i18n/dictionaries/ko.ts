@@ -22,8 +22,8 @@ export const ko: Dictionary = {
     footer: '© {year} VibeCodingLearners. 커뮤니티를 위해 만들어졌습니다.',
   },
   home: {
-    heroTitle: '코딩 마스터하기',
-    heroHighlight: 'Vibe',
+    heroTitle: '코딩 지식없이 나만의 소프트웨어 만들자!',
+    heroHighlight: 'VibeCodingLearners',
     heroDescription: '제로부터 프로덕션까지, 엄선된 코딩 강좌와 학습 경로. SEO 최적화, 빠르고, 무료로 탐색하세요.',
     browseCourses: '강좌 둘러보기',
     learningPaths: '학습 경로',
