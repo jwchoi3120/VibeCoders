@@ -30,7 +30,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
 
   return (
     <html lang={validLocale}>
-      <head>
+      <body className={`${inter.className} min-h-screen`} suppressHydrationWarning>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-CM7NWGR2XW"
           strategy="afterInteractive"
@@ -43,8 +43,6 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
             gtag('config', 'G-CM7NWGR2XW');
           `}
         </Script>
-      </head>
-      <body className={`${inter.className} min-h-screen`} suppressHydrationWarning>
         <Navbar locale={validLocale} dict={dict} />
         <main>
           {children}
