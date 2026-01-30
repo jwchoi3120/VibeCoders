@@ -8,7 +8,7 @@ import { getDictionary } from '@/lib/i18n/dictionaries';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'VibeCoders | Curated Coding Courses & Roadmaps',
+  title: 'VibeCodingLearners | Curated Coding Courses & Roadmaps',
   description: 'Aggregated and curated coding courses for developers. Find the best free and paid resources to master software engineering.',
   keywords: ['coding courses', 'programming roadmaps', 'frontend roadmap', 'backend roadmap', 'free coding resources'],
 };

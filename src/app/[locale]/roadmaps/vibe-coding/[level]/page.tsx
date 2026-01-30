@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: LevelPageProps): Promise<Meta
   }
 
   return {
-    title: `${content.title} | Vibe Coding Roadmap | VibeCoders`,
+    title: `${content.title} | Vibe Coding Roadmap | VibeCodingLearners`,
     description: content.subtitle,
   };
 }

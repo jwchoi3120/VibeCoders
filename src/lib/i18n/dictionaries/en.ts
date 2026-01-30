@@ -1,6 +1,6 @@
 export const en = {
   common: {
-    siteName: 'VibeCoders',
+    siteName: 'VibeCodingLearners',
     courses: 'Courses',
     roadmaps: 'Roadmaps',
     getStarted: 'Get Started',
@@ -17,7 +17,7 @@ export const en = {
     courseDetails: 'Course Details',
     joinWaitlist: 'Join Waitlist',
     enterEmail: 'Enter your email',
-    footer: '© {year} VibeCoders. Built for the community.',
+    footer: '© {year} VibeCodingLearners. Built for the community.',
   },
   home: {
     heroTitle: 'Master Coding with',

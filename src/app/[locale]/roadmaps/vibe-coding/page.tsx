@@ -7,7 +7,7 @@ import { locales, type Locale } from '@/lib/i18n/settings';
 import { getDictionary } from '@/lib/i18n/dictionaries';
 
 export const metadata: Metadata = {
-  title: 'Vibe Coding Roadmap | Build Without Learning to Code | VibeCoders',
+  title: 'Vibe Coding Roadmap | Build Without Learning to Code | VibeCodingLearners',
   description: 'A practical roadmap for AI-assisted development. Learn to build real software without traditional programming.',
 };
 

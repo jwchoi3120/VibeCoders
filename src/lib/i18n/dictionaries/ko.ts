@@ -2,7 +2,7 @@ import type { Dictionary } from './en';
 
 export const ko: Dictionary = {
   common: {
-    siteName: 'VibeCoders',
+    siteName: 'VibeCodingLearners',
     courses: '강좌',
     roadmaps: '로드맵',
     getStarted: '시작하기',
@@ -19,7 +19,7 @@ export const ko: Dictionary = {
     courseDetails: '강좌 상세',
     joinWaitlist: '대기자 등록',
     enterEmail: '이메일을 입력하세요',
-    footer: '© {year} VibeCoders. 커뮤니티를 위해 만들어졌습니다.',
+    footer: '© {year} VibeCodingLearners. 커뮤니티를 위해 만들어졌습니다.',
   },
   home: {
     heroTitle: '코딩 마스터하기',
