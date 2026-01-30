@@ -2,6 +2,7 @@ import Navbar from '@/components/layout/Navbar';
 import '@/app/globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import { locales, type Locale } from '@/lib/i18n/settings';
 import { getDictionary } from '@/lib/i18n/dictionaries';
 
@@ -29,6 +30,20 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
 
   return (
     <html lang={validLocale}>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-CM7NWGR2XW"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CM7NWGR2XW');
+          `}
+        </Script>
+      </head>
       <body className={`${inter.className} min-h-screen`} suppressHydrationWarning>
         <Navbar locale={validLocale} dict={dict} />
         <main>
